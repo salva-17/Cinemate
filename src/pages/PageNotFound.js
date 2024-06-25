@@ -1,8 +1,10 @@
+import { useEffect } from "react";
 import Backup from "../assets/images/backup.jpg";
 import { Link } from "react-router-dom";
 
 export const PageNotFound = () => {
 
+  
   return (
     <main>
       <section className="flex flex-col justify-center px-2">
